@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>PhoneHome.Client.Web</id>
+        <version>1.0.0.0</version>
+        <title>PhoneHome.Client.Web Library</title>
+        <authors>PhoneHome.Client.Web</authors>
+        <owners>Copyright © Carsales.com ltd 2016</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>PhoneHome.Client.Web</description>
+        <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+        <copyright>Copyright 2015</copyright>
+        <dependencies>
+          <dependency id="PhoneHome.Client" version="[1,2)" />
+          <dependency id="Microsoft.Web.Administration" version="7.0.0.0" />
+        </dependencies>
+    </metadata>
+    <files>
+      <file src="App_Start\PhoneHomeWeb.cs.pp" target="content\App_Start\PhoneHome.cs.pp" />
+      <file src="Web.Config.install.xdt" target="content\Web.config.install.xdt" />
+      <file src="Web.Config.uninstall.xdt" target="content\Web.config.uninstall.xdt" />
+      <file src="C:\src\phonehome\phonehome.client.web\src\PhoneHome.Client.Web\bin\Debug\PhoneHome.Client.Web.dll" target="lib\net45\PhoneHome.Client.Web.dll" />
+    </files>
+</package>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  http://go.microsoft.com/fwlink/?LinkId=301879
+  -->
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+
+  <configSections>
+    <section name="PhoneHome" type="PhoneHome.Client.Web.Configuration.PhoneHomeWebConfig, PhoneHome.Client.Web" xdt:Transform="Remove"  xdt:Locator="Match(name)" />
+  </configSections>
+
+  <PhoneHome  xdt:Transform="Remove"/>
+
+</configuration>
+
+
