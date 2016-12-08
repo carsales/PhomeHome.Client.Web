@@ -10,7 +10,7 @@
   </configSections>
 
   <PhoneHome xdt:Transform="Remove" />
-  <PhoneHome Environment="Development" ApplicationKey="$rootnamespace$" ApplicationName="$rootnamespace$" xdt:Transform="Insert"/>
+  <PhoneHome Environment="Development" ApplicationKey="$rootnamespace$" ApplicationName="$rootnamespace$" ApplicationType="Website" xdt:Transform="Insert"/>
 
 </configuration>
 

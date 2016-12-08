@@ -18,6 +18,7 @@ namespace PhoneHome.Client.Web.Configuration
         private string _applicationName;
         private string _applicationKey;
         private string _applicationVersion;
+        private string _applicationType;
         private string _environment;
         private int? _phoneHomeFrequencySeconds;
         private Guid? _apiKey;
@@ -51,6 +52,16 @@ namespace PhoneHome.Client.Web.Configuration
         {
             get { return (string)_section["ApplicationVersion"] ?? _applicationVersion; }
             set { _applicationVersion = value; }
+        }
+
+        /// <summary>
+        /// The type of application that is phoning home (website, api, windows service etc)
+        /// </summary>
+        [ConfigurationProperty("ApplicationType", IsRequired = false)]
+        public string ApplicationType
+        {
+            get { return (string)_section["ApplicationType"] ?? _applicationType; }
+            set { _applicationType = value; }
         }
 
         /// <summary>
