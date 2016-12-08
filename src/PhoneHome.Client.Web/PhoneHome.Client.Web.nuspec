@@ -19,6 +19,6 @@
       <file src="App_Start\PhoneHomeWeb.cs.pp" target="content\App_Start\PhoneHome.cs.pp" />
       <file src="Web.Config.install.xdt" target="content\Web.config.install.xdt" />
       <file src="Web.Config.uninstall.xdt" target="content\Web.config.uninstall.xdt" />
-      <file src="C:\src\phonehome\phonehome.client.web\src\PhoneHome.Client.Web\bin\Debug\PhoneHome.Client.Web.dll" target="lib\net45\PhoneHome.Client.Web.dll" />
+      <file src="bin\Release\PhoneHome.Client.Web.dll" target="lib\net45\PhoneHome.Client.Web.dll" />
     </files>
 </package>
